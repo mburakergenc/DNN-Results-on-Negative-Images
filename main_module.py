@@ -19,19 +19,14 @@ def cli(model):
 
     if model == 'lenet_5':
         model = md.lenet_5()
-        cnn.run_model(model)
     if model == 'mvgg_5':
         model = md.mvgg_5()
-        cnn.run_model(model)
     if model == 'mvgg_6':
         model = md.mvgg_6()
-        cnn.run_model(model)
     if model == 'mvgg_7':
         model = md.mvgg_7()
-        cnn.run_model(model)
     if model == 'mvgg_8':
         model = md.mvgg_8()
-        cnn.run_model(model)
     if model == 'mvgg_9':
         model = md.mvgg_9()
 
